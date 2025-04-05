@@ -29,11 +29,10 @@
   padding: 20px 0;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #111;
-  font-family: "gladiola", sans-serif;
+.logo-1 {
+  height: fit-content;
+  width: 250px;
+  margin: 0;
 }
 
 .nav-button {
