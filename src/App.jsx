@@ -10,9 +10,11 @@ const App = () => {
     <div className="container">
       <nav className="navbar">
         <h2 className="logo">
-          <img className="logo-1" src="src\assets\cv-logo-2.png" alt="CV" />
+          <img className="logo-1" src="src/assets/cv-logo-2.png" alt="CV" />
         </h2>
-        <button onClick={handleredirect} className="nav-button">Sign Up</button>
+        <button onClick={handleredirect} className="nav-button">
+          Sign Up
+        </button>
       </nav>
       <div className="content-wrapper">
         <div className="text-content">
@@ -29,7 +31,7 @@ const App = () => {
         </div>
         <div className="image-container">
           <img
-            src="src\assets\campus-illustration.png"
+            src="src/assets/campus-illustration.png"
             alt="CampusVerse Illustration"
           />
         </div>
