@@ -1,4 +1,6 @@
 import React from "react";
+import cvLogo from "./assets/cv-logo-2.png";
+import campusIllustration from "./assets/campus-illustration.png";
 
 const App = () => {
   const handleredirect = () => {
@@ -10,7 +12,7 @@ const App = () => {
     <div className="container">
       <nav className="navbar">
         <h2 className="logo">
-          <img className="logo-1" src="src/assets/cv-logo-2.png" alt="CV" />
+          <img className="logo-1" src={cvLogo} alt="CV" />
         </h2>
         <button onClick={handleredirect} className="nav-button">
           Sign Up
@@ -30,10 +32,7 @@ const App = () => {
           </div>
         </div>
         <div className="image-container">
-          <img
-            src="src/assets/campus-illustration.png"
-            alt="CampusVerse Illustration"
-          />
+          <img src={campusIllustration} alt="CampusVerse Illustration" />
         </div>
       </div>
       <div className="waitlist-section">
